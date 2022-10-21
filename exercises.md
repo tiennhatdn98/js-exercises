@@ -1,14 +1,25 @@
 1/ Phân biệt `setTimeout` và `setInterval`
+
 2/ Hiện tượng callback hell là gì?
+
 3/ Phân biệt `let` và `const`
+
 4/ Phân biệt `forEach`, `filter`, `map`, `every`, `some`, `for` thường
+
 5/ Phân biệt giá trị và địa chỉ của biến
+
 6/ Lỗi reference object mà dev hay gặp là lỗi gì? Minh họa
+
 7/ Phân biệt `call`, `bind`, `apply`
+
 8/ Javascript có bao nhiêu kiểu dữ liệu?
+
 9/ `prototype` là gì?
+
 10/ Trình bày các phương pháp để khởi tạo object
+
 11/ Trình bày các phương pháp để clone object (càng nhiều càng tốt, so sánh ưu nhược điểm)
+
 12/ Bài tập xử lý mảng
 
 ```js
@@ -38,7 +49,9 @@ Không sử dụng `for` thường và `while`, chỉ sử dụng `forEach`, `fi
 9. Kiểm tra có tồn tại sinh viên học khá hay không
 
 13/ Toán tử `==` và `===` khác và giống nhau như thế nào? `switch case` là so sánh `==` hay `===.`
+
 14/ Sự khác nhau giữa `require` và `import`?
+
 15/
 
 ```js
@@ -53,6 +66,7 @@ console.log(test());
 
 Kết quả của đoạn code này là gì? Vì sao?
 16/ Kết quả của phép so sánh `[] == []` là gì? Vì sao?
+
 17/ Bài tập CRUD trên memory
 Khởi tạo biến `students = []` đại diện collection/table trong (cấu trúc tương tự students bài 12). Viết các function `create`, `update`, `delete`, `findBy`, `findAll`
 
