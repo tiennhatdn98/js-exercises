@@ -56,7 +56,7 @@ Không sử dụng `for` thường và `while`, chỉ sử dụng `forEach`, `fi
 
 ```js
 function test() {
-  return;
+  return
   {
     a: "b";
   }
@@ -83,3 +83,15 @@ Khởi tạo biến `students = []` đại diện collection/table trong (cấu 
 18/ Tương tự bài 17, nhưng biến students là array được lưu trong file `students.json`
 Bất cứ thao tác đọc ghi vào students đều phải xử lý đọc file bất đồng bộ
 Gợi ý: sử dụng module `fs` là module built-in của Nodejs
+
+19/ Mô tả cách hoạt động của event loop cho code sau:
+
+```js
+console.log(1);
+
+setTimeout(() => {
+  console.log(2);
+}, 1000);
+
+console.log(3);
+```
